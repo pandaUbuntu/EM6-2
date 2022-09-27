@@ -4,6 +4,7 @@ protected:
 int id = 0;
 string name = "";
 public:
-Cat(){
+string getName(){
+  return this->name;
 }
 };
