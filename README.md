@@ -7,4 +7,8 @@ public:
 string getName(){
   return this->name;
 }
+
+int getId(){
+    return this->id;
+}
 };
